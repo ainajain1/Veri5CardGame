@@ -1,0 +1,1 @@
+# Veri5CardGame
