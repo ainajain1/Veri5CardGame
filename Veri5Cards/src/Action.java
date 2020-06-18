@@ -6,6 +6,7 @@ public enum Action {
     PRINT_ALL_CARDS_IN_DECK(4),
     START_GAME(5),
     PRINT_ALL_CARDS_OF_PLAYER(6),
+//    GET_MULTIPLE_CARD_FROM_DECK(10),
     WINNER(7),
     FINISH(8),
     EXIT(9);
@@ -23,7 +24,7 @@ public enum Action {
         return EXIT;
     }
 
-    public static void printAll() {
+	public static void printAll() {
         for (Action action : Action.values()) {
             System.out.println(action.name() + " " + action.actionNumber);
         }

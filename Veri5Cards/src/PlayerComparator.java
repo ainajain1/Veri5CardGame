@@ -32,7 +32,7 @@ public class PlayerComparator implements Comparator<Player> {
     }
 
     // winning rule for multiple cards
-    // Getting maximux card of each player
+    // Getting maximum card of each player
     // if both are same then comparing on the basis of given suit priority
     public int compareMultipleCards(Player player1, Player player2, int index) {
         Card card1WithMaxValue = player1.getSortedCardList().get(index);
